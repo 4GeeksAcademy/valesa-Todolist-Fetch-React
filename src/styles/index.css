@@ -1,12 +1,39 @@
+body {
+  background-image: url("https://cdn.pixabay.com/photo/2020/04/20/04/02/brick-5066282_1280.jpg");
+}
 
-/* 
+.container {
+  width: 40%;
+  background-color: white;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+ul {
+  padding: 0;
+  margin-bottom: 0;
+}
 
-*/
+ul li {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid grey;
+  list-style: none;
+  padding: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: #709988;
+}
+
+input {
+  border: none;
+  width: 100%;
+}
+
+.iconDelete {
+  display: flex;
+  align-items: flex-end;
+}
